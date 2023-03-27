@@ -24,12 +24,17 @@
 }
 .product-info{ 
      margin-left: 14px;
+    
+     
 
 }
 
+.product-rate{
+    padding-bottom:20px ;
+}
 .btn-cart{
     width: 100%;
-    background-color: bisque;
+    background-color: rgba(255, 153, 0, 0.3);
     border: 1px solid #95A0A7 ;
     border-radius:0px 0px 8px 8px;
       position: absolute;
@@ -37,4 +42,8 @@
 }
 .btn-cart:hover{
     background-color: orange;
+}
+.product p {
+    padding: 0px !important;
+      margin: 10px ;
 }
